@@ -7,12 +7,12 @@ function validateForm() {
     
   
     // Basic validation
-    if (name === "") {
+    if (name == "") {
       alert("Please enter your name.");
       return false;
     }
   
-    if (email === "") {
+    if (email == "") {
       alert("Please enter your email address.");
       return false;
     }
